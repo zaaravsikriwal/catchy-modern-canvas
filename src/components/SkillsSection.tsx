@@ -11,6 +11,7 @@ const SkillsSection = () => {
     { name: 'Node.js', level: 88 },
     { name: 'Express.js', level: 85 },
     { name: 'MongoDB', level: 80 },
+    { name: 'MySQL Databases', level: 82 },
   ];
 
   const softSkills = [
