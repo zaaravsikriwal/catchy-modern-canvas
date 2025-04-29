@@ -61,7 +61,7 @@ const HeroSection = () => {
           <div className="relative animate-fade-in">
             <div className="glass p-1 rounded-full w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 mx-auto shadow-xl animate-float">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b" 
+                src="/lovable-uploads/397c3a35-30ee-44e8-9bac-7c5e2fa3637d.png" 
                 alt="Profile" 
                 className="rounded-full w-full h-full object-cover"
               />
