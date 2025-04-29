@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Instagram } from 'lucide-react';
 
 const HeroSection = () => {
   return (
@@ -24,11 +24,11 @@ const HeroSection = () => {
             </h1>
             
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-muted-foreground">
-              Frontend Developer
+              Full Stack Developer
             </h2>
             
             <p className="text-lg text-muted-foreground max-w-lg">
-              I create engaging, responsive web experiences with modern technologies.
+              I create engaging, responsive web applications with modern technologies.
               Let's bring your vision to life with clean code and beautiful design.
             </p>
             
@@ -43,17 +43,17 @@ const HeroSection = () => {
             </div>
             
             <div className="flex items-center gap-4 pt-2">
-              <a href="#" className="text-foreground hover:text-primary transition-colors">
+              <a href="https://github.com/zaaravsikriwal" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">
+              <a href="https://www.linkedin.com/in/aarav-sikriwal/" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-foreground hover:text-primary transition-colors">
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
+              <a href="https://www.instagram.com/aaravsikriwal" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors">
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
               </a>
             </div>
           </div>

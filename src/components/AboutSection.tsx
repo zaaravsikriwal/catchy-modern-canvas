@@ -31,20 +31,21 @@ const AboutSection = () => {
             <h3 className="text-2xl font-bold">Get to know me!</h3>
             
             <p className="text-lg text-muted-foreground">
-              Hello! I'm John, a passionate Frontend Developer based in New York. 
-              I enjoy transforming complex problems into simple, beautiful, and intuitive designs.
+              Hello! I'm Aarav Kumar, a passionate Full Stack Developer based in Bihar, India. 
+              I enjoy transforming ideas into functional and visually appealing web applications.
             </p>
             
             <p className="text-lg text-muted-foreground">
-              With over 5 years of experience in web development, I specialize in building responsive 
-              web applications using modern JavaScript frameworks like React and Vue. My approach combines 
-              technical expertise with a strong sense of design to create engaging user experiences.
+              With expertise in both frontend and backend technologies, I specialize in building responsive 
+              web applications using modern JavaScript frameworks like React along with backend technologies 
+              like Node.js and Express. I'm dedicated to writing clean, efficient code that delivers exceptional 
+              user experiences.
             </p>
             
             <p className="text-lg text-muted-foreground">
               When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-              projects, or enjoying outdoor activities. I'm always looking for new challenges and opportunities 
-              to grow professionally.
+              projects, or enhancing my skills through continuous learning. I'm always eager to take on new 
+              challenges and collaborate on innovative projects.
             </p>
             
             <div className="pt-4">
@@ -57,13 +58,13 @@ const AboutSection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
               <div className="p-4 border border-border rounded-lg bg-card">
                 <h4 className="text-xl font-bold text-primary">Education</h4>
-                <p className="text-muted-foreground mt-2">B.S. in Computer Science</p>
-                <p className="text-muted-foreground">Stanford University</p>
+                <p className="text-muted-foreground mt-2">BCA</p>
+                <p className="text-muted-foreground">Lovely Professional University</p>
               </div>
               <div className="p-4 border border-border rounded-lg bg-card">
-                <h4 className="text-xl font-bold text-primary">Experience</h4>
-                <p className="text-muted-foreground mt-2">5+ Years</p>
-                <p className="text-muted-foreground">Frontend Development</p>
+                <h4 className="text-xl font-bold text-primary">Role</h4>
+                <p className="text-muted-foreground mt-2">Full Stack Developer</p>
+                <p className="text-muted-foreground">Frontend & Backend</p>
               </div>
             </div>
           </div>

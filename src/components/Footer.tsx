@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <a href="#" className="font-heading text-2xl font-bold gradient-text">Portfolio</a>
             <p className="mt-2 text-sm text-muted-foreground max-w-xs">
-              A showcase of my work and skills as a front-end developer.
+              A showcase of my work and skills as a full-stack developer.
             </p>
           </div>
           

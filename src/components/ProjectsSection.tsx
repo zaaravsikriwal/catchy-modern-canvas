@@ -5,69 +5,39 @@ import { Card, CardContent, CardFooter } from '@/components/ui/card';
 import { Github, Eye, ArrowRight } from 'lucide-react';
 
 const ProjectsSection = () => {
-  const categories = ['All', 'Web App', 'Mobile', 'UI/UX', 'Other'];
+  const categories = ['All', 'Frontend', 'Full Stack'];
   const [activeCategory, setActiveCategory] = useState('All');
 
   const projects = [
     {
       id: 1,
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website built with React and Tailwind CSS.',
-      image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
+      title: 'Amazon Clone',
+      description: 'A frontend replica of Amazon with responsive design and core UI features.',
+      image: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1',
       demoLink: '#',
       githubLink: '#',
-      category: 'Web App',
-      tags: ['React', 'Tailwind CSS', 'TypeScript']
+      category: 'Frontend',
+      tags: ['HTML5', 'CSS3', 'JavaScript']
     },
     {
       id: 2,
-      title: 'E-commerce Platform',
-      description: 'A full-featured online store with product management, cart, and payment integration.',
-      image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158',
+      title: 'Spotify Clone',
+      description: 'A frontend implementation of the Spotify music platform with similar UI/UX.',
+      image: 'https://images.unsplash.com/photo-1614680376408-81e91ffe3db7',
       demoLink: '#',
       githubLink: '#',
-      category: 'Web App',
-      tags: ['React', 'Node.js', 'MongoDB']
+      category: 'Frontend',
+      tags: ['HTML5', 'CSS3', 'JavaScript']
     },
     {
       id: 3,
-      title: 'Travel App UI',
-      description: 'Designed and developed a mobile app interface for a travel booking platform.',
-      image: 'https://images.unsplash.com/photo-1527576539890-dfa815648363',
+      title: 'Netflix Clone',
+      description: 'A full stack implementation of Netflix with user authentication and content management.',
+      image: 'https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37',
       demoLink: '#',
       githubLink: '#',
-      category: 'UI/UX',
-      tags: ['Figma', 'UI Design']
-    },
-    {
-      id: 4,
-      title: 'Task Management App',
-      description: 'A productivity application to help users organize their tasks and projects.',
-      image: 'https://images.unsplash.com/photo-1487958449943-2429e8be8625',
-      demoLink: '#',
-      githubLink: '#',
-      category: 'Mobile',
-      tags: ['React Native', 'Firebase']
-    },
-    {
-      id: 5,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather forecast application with location-based data.',
-      image: 'https://images.unsplash.com/photo-1493397212122-2b85dda8106b',
-      demoLink: '#',
-      githubLink: '#',
-      category: 'Web App',
-      tags: ['JavaScript', 'API Integration']
-    },
-    {
-      id: 6,
-      title: 'Blog Platform',
-      description: 'A full-stack blogging platform with user authentication and content management.',
-      image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7',
-      demoLink: '#',
-      githubLink: '#',
-      category: 'Web App',
-      tags: ['Next.js', 'Prisma', 'PostgreSQL']
+      category: 'Full Stack',
+      tags: ['React', 'Node.js', 'Express', 'MongoDB']
     }
   ];
 
@@ -135,13 +105,6 @@ const ProjectsSection = () => {
               </CardFooter>
             </Card>
           ))}
-        </div>
-        
-        <div className="mt-12 text-center">
-          <Button variant="outline" className="group">
-            View All Projects
-            <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </Button>
         </div>
       </div>
     </section>

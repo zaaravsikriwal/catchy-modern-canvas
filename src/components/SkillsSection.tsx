@@ -5,12 +5,12 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const SkillsSection = () => {
   const technicalSkills = [
-    { name: 'HTML & CSS', level: 95 },
+    { name: 'HTML5 & CSS3', level: 95 },
     { name: 'JavaScript', level: 90 },
-    { name: 'React', level: 92 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'Tailwind CSS', level: 88 },
-    { name: 'Node.js', level: 80 },
+    { name: 'ReactJS', level: 92 },
+    { name: 'Node.js', level: 88 },
+    { name: 'Express.js', level: 85 },
+    { name: 'MongoDB', level: 80 },
   ];
 
   const softSkills = [
@@ -38,7 +38,7 @@ const SkillsSection = () => {
                     <span className="font-medium">{skill.name}</span>
                     <span className="text-primary font-medium">{skill.level}%</span>
                   </div>
-                  <Progress value={skill.level} className="h-2" indicatorClassName="bg-gradient-to-r from-primary to-purple-500" />
+                  <Progress value={skill.level} className="h-2" />
                 </div>
               ))}
             </div>
@@ -66,7 +66,7 @@ const SkillsSection = () => {
           <h3 className="text-2xl font-bold mb-6 text-center">Tools & Technologies</h3>
           
           <div className="flex flex-wrap justify-center gap-6">
-            {['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Git', 'Figma', 'Redux', 'Node.js', 'MongoDB'].map((tech, index) => (
+            {['HTML5', 'CSS3', 'JavaScript', 'MongoDB', 'ReactJS', 'Node.js', 'Express.js', 'MySQL', 'AWS'].map((tech, index) => (
               <div 
                 key={index}
                 className="px-4 py-2 bg-card rounded-full border border-border shadow-sm hover:shadow-md transition-shadow duration-300"
