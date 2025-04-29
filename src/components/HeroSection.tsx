@@ -20,7 +20,7 @@ const HeroSection = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-              <span className="gradient-text">John Doe</span>
+              <span className="gradient-text">Aarav Kumar</span>
             </h1>
             
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-muted-foreground">
